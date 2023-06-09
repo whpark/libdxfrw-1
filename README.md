@@ -27,8 +27,8 @@ Use CMake
 ```
 mkdir build
 cd build
-build ..  -DCMAKE_BUILD_TYPE=Release
-build --build . --config Release  --target install
+cmake ..  -DCMAKE_BUILD_TYPE=Release
+cmake --build . --config Release  --target install
 ```
 
 [VC++]
@@ -40,7 +40,7 @@ There is also a dwg to dxf converter that depends on libdxfrw that can be built 
 - 
 [VC++ with CMakeLists.txt]
 
-- Open the CMakeLists.txt from vs 2019 driectly
+- Open the CMakeLists.txt from vs 2019 directly
 - build
 
 Example usage of the library
